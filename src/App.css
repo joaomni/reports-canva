@@ -10,6 +10,24 @@
   align-items: center;
 }
 
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  list-style: none;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
 .budgets {
   position: relative;
   width: 100%;
