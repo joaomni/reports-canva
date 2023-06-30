@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css'
 
-import CMF from "./pdf/29 meta_cmf.pdf"
-import Frizon from "./pdf/29 google_bellafrizon.pdf"
-import Pizzini  from "./pdf/29 google_clinica.pdf"
-import BBJ from "./pdf/29 meta_google_casamentos.pdf"
-import Hipica from "./pdf/29 meta_whats.pdf"
+import CMF from "./pdf/30 meta_cmf.pdf"
+import Frizon from "./pdf/30 google_bellafrizon.pdf"
+import Pizzini  from "./pdf/30 google_clinica.pdf"
+import BBJ from "./pdf/30 meta_google_casamentos.pdf"
+import Hipica from "./pdf/30 meta_whats.pdf"
 
 import Report from './components/Report'
 
