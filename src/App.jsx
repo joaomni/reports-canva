@@ -13,9 +13,8 @@ import Report from './components/Report'
 import Backtop from './components/Backtop'
 
 function App() {
-  moment.locale('pt-br');
 
-  const date = moment().format('D');
+  const date = moment().format('DD/MM/YYYY');  
 
   return (
     <>
