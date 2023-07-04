@@ -2,14 +2,14 @@ import React from 'react';
 
 import './style.css';
 
-const Report = ({ id, PDF, Drive, Name,}) => {
+const Report = ({ name, link, report }) => {
     return (
       <>
-        <div className='box-reports' id={id}>
-          <iframe loading="lazy" src={PDF} />
+        <div className='box-reports' id={name}>
+          <iframe loading="lazy" src={report} />
         </div>
 
-        <a href={Drive} target="_blank" rel="noopener"> Drive: Relatórios de {Name}</a>
+        <a href={link} target="_blank" rel="noopener"> Drive: Relatórios de {name}</a>
       </>
     );
 }

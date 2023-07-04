@@ -3,18 +3,18 @@ import moment from 'moment'
 
 import './App.css'
 
-import CMF from "./pdf/03 meta_cmf.pdf"
-import FVM from "./pdf/03 meta_fvm.pdf"
-import Frizon from "./pdf/03 google_bellafrizon.pdf"
-import Pizzini  from "./pdf/03 google_clinica.pdf"
-import BBJ from "./pdf/03 meta_google_casamentos.pdf"
-import Hipica from "./pdf/03 meta_whats.pdf"
+import CMF from "./pdf/04 meta_cmf.pdf"
+import FVM from "./pdf/04 meta_fvm.pdf"
+import Hipica from "./pdf/04 meta_whats.pdf"
+import Pizzini  from "./pdf/04 google_clinica.pdf"
+import Frizon from "./pdf/04 google_bellafrizon.pdf"
+import BBJ from "./pdf/04 meta_google_casamentos.pdf"
+
 
 import Report from './components/Report'
 import Backtop from './components/Backtop'
 
 function App() {
-
   const date = moment().format('DD/MM/YYYY');  
 
   return (
@@ -36,13 +36,13 @@ function App() {
         <div className='title'>
           <h2>Relatórios diário {date}</h2>
         </div>
-        
-        <Report id="fvm" PDF={FVM}  Drive="https://drive.google.com/drive/u/2/folders/1SDT0fidAJKmx9qKO4jlDoN_mnLmBSWuo" Name="César Menotti e Fabiano"/>
-        <Report id="cmf" PDF={CMF}  Drive="https://drive.google.com/drive/u/2/folders/1SDT0fidAJKmx9qKO4jlDoN_mnLmBSWuo" Name="César Menotti e Fabiano"/>
-        <Report id="frizon" PDF={Frizon}  Drive="https://drive.google.com/drive/u/2/folders/1RsFP3cPFl95C7JpIgmPwzdfKXj-9WnND" Name="Frizon"/>
-        <Report id="pizzini" PDF={Pizzini}  Drive="https://drive.google.com/drive/u/2/folders/1HUivfJzVGyQg7mXN07Tghn3HjU5wIC4Y" Name="Dr. Fábio Pizzini"/>
-        <Report id="bbje" PDF={BBJ}  Drive="https://drive.google.com/drive/folders/1Qc9tLGuJg_SZKOR12JtQ3KHkA3RBNEK6" Name="BBJ Eventos"/>
-        <Report id="hipica" PDF={Hipica}  Drive="https://drive.google.com/drive/u/2/folders/1URkdNZgdqZ1O9fJXQOofbQBGdj4D_3YK" Name="Hípica"/>
+
+        <Report report={FVM} link="https://drive.google.com/drive/u/2/folders/1-kHWA2Zr1X8L18jJZ5mCdQwudRKIAC02" name="Festival Velho Mundo"/>
+        <Report report={CMF} link="https://drive.google.com/drive/u/2/folders/1nobtDlQxu5e9OFw-l0thQGafUshyp8VH" name="César Menotti e Fabiano"/>
+        <Report report={Hipica} link="https://drive.google.com/drive/u/2/folders/1cH9hdTKcz32s9Gw3C4Lg35KpDbkiX7zL" name="Hípica Pagliato"/>
+        <Report report={BBJ} link="https://drive.google.com/drive/u/2/folders/1CEVRXTgPo5cryua5u13D2h37hSZoUr3q" name="BBJ Eventos"/>
+        <Report report={Pizzini} link="https://drive.google.com/drive/u/2/folders/1Zqnufbc23EGziRkeXrEYIO4sIQkKT5U7" name="Dr. Fábio Pizzini"/>
+        <Report report={Frizon} link="https://drive.google.com/drive/u/2/folders/1M8R8xFV5CZZ6qPcGZhkEli79bylfA8Jb" name="Frizon Construtora"/>
 
         <div className="budgets" id='orcamentos'>
           <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSNzHHo5VQBCbW7jm_karKGWPMlmjnNjzj1ogZ-FKkdU-4VSGUfbHX66qn2D3sKlw/pubhtml?widget=true&amp;headers=false"></iframe>
