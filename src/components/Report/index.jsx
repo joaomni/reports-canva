@@ -2,10 +2,10 @@ import React from 'react';
 
 import './style.css';
 
-const Report = ({ name, link, report }) => {
+const Report = ({ name, link, report, id }) => {
     return (
       <>
-        <div className='box-reports' id={name}>
+        <div className='box-reports' id={id}>
           <iframe loading="lazy" src={report} />
         </div>
 
