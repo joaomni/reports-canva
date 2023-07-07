@@ -3,12 +3,12 @@ import moment from 'moment'
 
 import './App.css'
 
-import CMF from "./pdf/06 meta_cmf.pdf"
-import FVM from "./pdf/06 meta_fvm.pdf"
-import Hipica from "./pdf/06 meta_whats.pdf"
-import Pizzini  from "./pdf/06 google_clinica.pdf"
-import Frizon from "./pdf/06 google_bellafrizon.pdf"
-import BBJ from "./pdf/06 meta_google_casamentos.pdf"
+import CMF from "./pdf/07 meta_cmf.pdf"
+import FVM from "./pdf/07 meta_fvm.pdf"
+import Hipica from "./pdf/07 meta_whats.pdf"
+import Pizzini  from "./pdf/07 google_clinica.pdf"
+import Frizon from "./pdf/07 google_bellafrizon.pdf"
+import BBJ from "./pdf/07 meta_google_casamentos.pdf"
 
 
 import Report from './components/Report'
