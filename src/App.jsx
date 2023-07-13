@@ -3,12 +3,11 @@ import moment from 'moment'
 
 import './App.css'
 
-import CMF from "./pdf/10 meta_cmf.pdf"
-import FVM from "./pdf/10 meta_fvm.pdf"
-import Hipica from "./pdf/10 meta_whats.pdf"
-import Pizzini  from "./pdf/10 google_clinica.pdf"
-import Frizon from "./pdf/10 google_bellafrizon.pdf"
-import BBJ from "./pdf/10 meta_google_casamentos.pdf"
+import CMF from "./pdf/13 meta_cmf.pdf"
+import Hipica from "./pdf/13 meta_whats.pdf"
+import Pizzini  from "./pdf/13 google_clinica.pdf"
+import Frizon from "./pdf/13 google_bellafrizon.pdf"
+import BBJ from "./pdf/13 meta_google_casamentos.pdf"
 
 
 import Report from './components/Report'
@@ -21,7 +20,6 @@ function App() {
     <>
       <nav id='navbar'>
         <ul>
-          <li><a href="#fvm">FVM</a></li>
           <li><a href="#cmf">CMF</a></li>
           <li><a href="#hipica">Hípica</a></li>
           <li><a href="#bbje">BBJ Eventos</a></li>
@@ -37,7 +35,6 @@ function App() {
           <h2>Relatórios diário {date}</h2>
         </div>
 
-        <Report report={FVM} link="https://drive.google.com/drive/u/2/folders/1-kHWA2Zr1X8L18jJZ5mCdQwudRKIAC02" name="Festival Velho Mundo" id="fvm"/>
         <Report report={CMF} link="https://drive.google.com/drive/u/2/folders/1nobtDlQxu5e9OFw-l0thQGafUshyp8VH" name="César Menotti e Fabiano" id="cmf"/>
         <Report report={Hipica} link="https://drive.google.com/drive/u/2/folders/1cH9hdTKcz32s9Gw3C4Lg35KpDbkiX7zL" name="Hípica Pagliato" id="hipica"/>
         <Report report={BBJ} link="https://drive.google.com/drive/u/2/folders/1CEVRXTgPo5cryua5u13D2h37hSZoUr3q" name="BBJ Eventos" id="bbje"/>
