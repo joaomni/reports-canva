@@ -3,7 +3,6 @@ import moment from 'moment'
 
 import './App.css'
 
-import CMF from "./pdf/17 meta_cmf.pdf"
 import Hipica from "./pdf/17 meta_whats.pdf"
 import Pizzini  from "./pdf/17 google_clinica.pdf"
 import Frizon from "./pdf/17 google_bellafrizon.pdf"
@@ -20,7 +19,6 @@ function App() {
     <>
       <nav id='navbar'>
         <ul>
-          <li><a href="#cmf">CMF</a></li>
           <li><a href="#hipica">Hípica</a></li>
           <li><a href="#bbje">BBJ Eventos</a></li>
           <li><a href="#pizzini">Dr. Fábio Pizzini</a></li>
