@@ -3,11 +3,11 @@ import moment from 'moment'
 
 import './App.css'
 
-import CMF from "./pdf/13 meta_cmf.pdf"
-import Hipica from "./pdf/13 meta_whats.pdf"
-import Pizzini  from "./pdf/13 google_clinica.pdf"
-import Frizon from "./pdf/13 google_bellafrizon.pdf"
-import BBJ from "./pdf/13 meta_google_casamentos.pdf"
+import CMF from "./pdf/17 meta_cmf.pdf"
+import Hipica from "./pdf/17 meta_whats.pdf"
+import Pizzini  from "./pdf/17 google_clinica.pdf"
+import Frizon from "./pdf/17 google_bellafrizon.pdf"
+import BBJ from "./pdf/17 meta_google_casamentos.pdf"
 
 
 import Report from './components/Report'
@@ -35,7 +35,6 @@ function App() {
           <h2>Relatórios diário {date}</h2>
         </div>
 
-        <Report report={CMF} link="https://drive.google.com/drive/u/2/folders/1nobtDlQxu5e9OFw-l0thQGafUshyp8VH" name="César Menotti e Fabiano" id="cmf"/>
         <Report report={Hipica} link="https://drive.google.com/drive/u/2/folders/1cH9hdTKcz32s9Gw3C4Lg35KpDbkiX7zL" name="Hípica Pagliato" id="hipica"/>
         <Report report={BBJ} link="https://drive.google.com/drive/u/2/folders/1CEVRXTgPo5cryua5u13D2h37hSZoUr3q" name="BBJ Eventos" id="bbje"/>
         <Report report={Pizzini} link="https://drive.google.com/drive/u/2/folders/1Zqnufbc23EGziRkeXrEYIO4sIQkKT5U7" name="Dr. Fábio Pizzini" id="pizzini"/>
@@ -45,6 +44,7 @@ function App() {
           <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSNzHHo5VQBCbW7jm_karKGWPMlmjnNjzj1ogZ-FKkdU-4VSGUfbHX66qn2D3sKlw/pubhtml?widget=true&amp;headers=false"></iframe>
         </div>
       </div>
+
       <Backtop />
     </>
   )
