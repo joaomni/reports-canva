@@ -3,10 +3,10 @@ import moment from 'moment'
 
 import './App.css'
 
-import Hipica from "./pdf/17 meta_whats.pdf"
-import Pizzini  from "./pdf/17 google_clinica.pdf"
-import Frizon from "./pdf/17 google_bellafrizon.pdf"
-import BBJ from "./pdf/17 meta_google_casamentos.pdf"
+import Hipica from "./pdf/18 meta_whats.pdf"
+import Pizzini  from "./pdf/18 google_clinica.pdf"
+import Frizon from "./pdf/18 google_bellafrizon.pdf"
+import BBJ from "./pdf/18 meta_google_casamentos.pdf"
 
 
 import Report from './components/Report'
