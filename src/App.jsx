@@ -7,7 +7,7 @@ import Hipica from "./pdf/26 meta_whats.pdf"
 import Pizzini  from "./pdf/26 google_clinica.pdf"
 import Frizon from "./pdf/26 google_bellafrizon.pdf"
 import BBJ from "./pdf/26 meta_google_casamentos.pdf"
-import RN from "./pdf/26 meta_raçanegra.pdf"
+import RN from "./pdf/26 meta_raçanegra.pdf"
 
 
 import Report from './components/Report'
