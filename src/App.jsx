@@ -3,10 +3,11 @@ import moment from 'moment'
 
 import './App.css'
 
-import Hipica from "./pdf/19 meta_whats.pdf"
-import Pizzini  from "./pdf/19 google_clinica.pdf"
-import Frizon from "./pdf/19 google_bellafrizon.pdf"
-import BBJ from "./pdf/19 meta_google_casamentos.pdf"
+import Hipica from "./pdf/26 meta_whats.pdf"
+import Pizzini  from "./pdf/26 google_clinica.pdf"
+import Frizon from "./pdf/26 google_bellafrizon.pdf"
+import BBJ from "./pdf/26 meta_google_casamentos.pdf"
+import RN from "./pdf/26 meta_raçanegra.pdf"
 
 
 import Report from './components/Report'
@@ -21,6 +22,7 @@ function App() {
         <ul>
           <li><a href="#hipica">Hípica</a></li>
           <li><a href="#bbje">BBJ Eventos</a></li>
+          <li><a href="#rn">Raça Negra</a></li>
           <li><a href="#pizzini">Dr. Fábio Pizzini</a></li>
           <li><a href="#frizon">Frizon Contrutora</a></li>
           <li><a href="#orcamentos">Orçamentos</a></li>
@@ -35,6 +37,7 @@ function App() {
 
         <Report report={Hipica} link="https://drive.google.com/drive/u/2/folders/1cH9hdTKcz32s9Gw3C4Lg35KpDbkiX7zL" name="Hípica Pagliato" id="hipica"/>
         <Report report={BBJ} link="https://drive.google.com/drive/u/2/folders/1CEVRXTgPo5cryua5u13D2h37hSZoUr3q" name="BBJ Eventos" id="bbje"/>
+        <Report report={RN} link="https://drive.google.com/drive/u/2/folders/1Jl4t_143dNMRGRFZZJKcwiXyQCU23WPO" name="Raça Negra" id="rn"/>
         <Report report={Pizzini} link="https://drive.google.com/drive/u/2/folders/1Zqnufbc23EGziRkeXrEYIO4sIQkKT5U7" name="Dr. Fábio Pizzini" id="pizzini"/>
         <Report report={Frizon} link="https://drive.google.com/drive/u/2/folders/1M8R8xFV5CZZ6qPcGZhkEli79bylfA8Jb" name="Frizon Construtora" id='frizon'/>
 
