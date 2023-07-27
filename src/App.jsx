@@ -3,11 +3,11 @@ import moment from 'moment'
 
 import './App.css'
 
-import Hipica from "./pdf/26 meta_whats.pdf"
-import Pizzini  from "./pdf/26 google_clinica.pdf"
-import Frizon from "./pdf/26 google_bellafrizon.pdf"
-import BBJ from "./pdf/26 meta_google_casamentos.pdf"
-import RN from "./pdf/26 meta_raçanegra.pdf"
+import Hipica from "./pdf/27 meta_whats.pdf"
+import Pizzini  from "./pdf/27 google_clinica.pdf"
+import Frizon from "./pdf/27 google_bellafrizon.pdf"
+import BBJ from "./pdf/27 meta_google_casamentos.pdf"
+import RN from "./pdf/27 meta_raçanegra.pdf"
 
 
 import Report from './components/Report'
