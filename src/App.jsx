@@ -3,11 +3,13 @@ import moment from 'moment'
 
 import './App.css'
 
-import Hipica from "./pdf/01 meta_whats.pdf"
-import Pizzini  from "./pdf/01 google_clinica.pdf"
-import Frizon from "./pdf/01 google_bellafrizon.pdf"
-import BBJ from "./pdf/01 meta_google_casamentos.pdf"
-import RN from "./pdf/01 meta_raçanegra.pdf"
+import Hipica from "./pdf/09 meta_whats.pdf"
+import Pizzini  from "./pdf/09 google_clinica.pdf"
+import Frizon from "./pdf/09 google_bellafrizon.pdf"
+import BBJ from "./pdf/09 meta_google_casamentos.pdf"
+import RN from "./pdf/09 meta_raçanegra.pdf"
+import Reis from "./pdf/09 meta_google_reispeças.pdf"
+import Higa from "./pdf/09 meta_dentistavittoria.pdf"
 
 
 import Report from './components/Report'
@@ -23,7 +25,9 @@ function App() {
           <li><a href="#hipica">Hípica</a></li>
           <li><a href="#bbje">BBJ Eventos</a></li>
           <li><a href="#rn">Raça Negra</a></li>
+          <li><a href="#reis">Reis Peças</a></li>
           <li><a href="#pizzini">Dr. Fábio Pizzini</a></li>
+          <li><a href="#higa">Dra. Vittória Higa</a></li>
           <li><a href="#frizon">Frizon Contrutora</a></li>
           <li><a href="#orcamentos">Orçamentos</a></li>
         </ul>
@@ -38,7 +42,9 @@ function App() {
         <Report report={Hipica} link="https://drive.google.com/drive/u/2/folders/1cH9hdTKcz32s9Gw3C4Lg35KpDbkiX7zL" name="Hípica Pagliato" id="hipica"/>
         <Report report={BBJ} link="https://drive.google.com/drive/u/2/folders/1CEVRXTgPo5cryua5u13D2h37hSZoUr3q" name="BBJ Eventos" id="bbje"/>
         <Report report={RN} link="https://drive.google.com/drive/u/2/folders/1Jl4t_143dNMRGRFZZJKcwiXyQCU23WPO" name="Raça Negra" id="rn"/>
+        <Report report={Reis} link="https://drive.google.com/drive/u/2/folders/1Jl4t_143dNMRGRFZZJKcwiXyQCU23WPO" name="Reis Peças" id="reis"/>
         <Report report={Pizzini} link="https://drive.google.com/drive/u/2/folders/1Zqnufbc23EGziRkeXrEYIO4sIQkKT5U7" name="Dr. Fábio Pizzini" id="pizzini"/>
+        <Report report={Higa} link="https://drive.google.com/drive/u/2/folders/1Zqnufbc23EGziRkeXrEYIO4sIQkKT5U7" name="Dra. Vittória Higa" id="higa"/>
         <Report report={Frizon} link="https://drive.google.com/drive/u/2/folders/1M8R8xFV5CZZ6qPcGZhkEli79bylfA8Jb" name="Frizon Construtora" id='frizon'/>
 
         <div className="budgets" id='orcamentos'>
