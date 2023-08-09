@@ -3,7 +3,7 @@ import moment from 'moment'
 
 import './App.css'
 
-import Hipica from "./pdf/09 meta_whats.pdf"
+// import Hipica from "./pdf/09 meta_whats.pdf"
 import Pizzini  from "./pdf/09 google_clinica.pdf"
 import Frizon from "./pdf/09 google_bellafrizon.pdf"
 import BBJ from "./pdf/09 meta_google_casamentos.pdf"
@@ -39,7 +39,7 @@ function App() {
           <h2>Relatórios diário {date}</h2>
         </div>
 
-        <Report report={Hipica} link="https://drive.google.com/drive/u/2/folders/1cH9hdTKcz32s9Gw3C4Lg35KpDbkiX7zL" name="Hípica Pagliato" id="hipica"/>
+        {/* <Report report={Hipica} link="https://drive.google.com/drive/u/2/folders/1cH9hdTKcz32s9Gw3C4Lg35KpDbkiX7zL" name="Hípica Pagliato" id="hipica"/> */}
         <Report report={BBJ} link="https://drive.google.com/drive/u/2/folders/1CEVRXTgPo5cryua5u13D2h37hSZoUr3q" name="BBJ Eventos" id="bbje"/>
         <Report report={RN} link="https://drive.google.com/drive/u/2/folders/1Jl4t_143dNMRGRFZZJKcwiXyQCU23WPO" name="Raça Negra" id="rn"/>
         <Report report={Reis} link="https://drive.google.com/drive/u/2/folders/1Jl4t_143dNMRGRFZZJKcwiXyQCU23WPO" name="Reis Peças" id="reis"/>
