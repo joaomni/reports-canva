@@ -7,7 +7,7 @@ import './App.css'
 import Pizzini  from "./pdf/09 google_clinica.pdf"
 import Frizon from "./pdf/09 google_bellafrizon.pdf"
 import BBJ from "./pdf/09 meta_google_casamentos.pdf"
-import RN from "./pdf/09 meta_raçanegra.pdf"
+import RN from "./pdf/09 meta_raçanegra.pdf"
 import Reis from "./pdf/09 meta_google_reispeças.pdf"
 import Higa from "./pdf/09 meta_dentistavittoria.pdf"
 
